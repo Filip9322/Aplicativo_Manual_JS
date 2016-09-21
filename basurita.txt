@@ -1,0 +1,31 @@
+<label for="slider1">Input slider:</label>
+<input type="range" name="slider1" id="slider1" value="50" min="0" max="100" data-theme="a" />
+<fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
+<legend>Cache settings:</legend>
+<input type="radio" name="radio-choice-a1" id="radio-choice-a1" value="on" checked="checked" />
+<label for="radio-choice-a1">On</label>
+<input type="radio" name="radio-choice-a1" id="radio-choice-b1" value="off"  />
+<label for="radio-choice-b1">Off</label>
+</fieldset>
+
+<ul>
+  <li><a href="#">Menu Option 1</a></li>
+    <ul>
+      <li><a href="">Child Menu Option 1</a></li>
+      <li><a href="">Child Menu Option 2</a></li>
+      <li><a href="">Child Menu Option 3</a></li>
+      <li><a href="">Child Menu Option 4</a></li>
+    </ul>
+  <li><a href="#">Menu Option 2</a></li>
+  <li><a href="#">Menu Option 3</a></li>
+  <li><a href="#">Menu Option 4</a></li>
+</ul>
+
+
+		<a href="#" data-icon="gear" class="ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-left ui-btn-up-a"
+		   data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="a">
+		   	<span class="ui-btn-inner ui-btn-corner-all">
+		   		<span class="ui-btn-text">Options</span>
+					<span class="ui-btn ui-corner-all ui-icon-gear ui-btn-icon-notext ui-icon-shadow">&nbsp;</span>
+		   	</span>
+		   </a>
