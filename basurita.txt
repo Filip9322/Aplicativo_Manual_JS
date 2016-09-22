@@ -29,3 +29,13 @@
 					<span class="ui-btn ui-corner-all ui-icon-gear ui-btn-icon-notext ui-icon-shadow">&nbsp;</span>
 		   	</span>
 		   </a>
+
+       <!-- Main -->
+       <div data-role="main" class="ui-content">
+         <h2>Aca va el contenido</h2>
+         <div class="Content 1" id="Content-1">
+           <h2>Incluir JS en Web</h1>
+             <p>Delimitado por etiqueta</p>
+             <p>Javascript externo</p>
+         </div>
+       </div>
