@@ -33,32 +33,38 @@
 			</ul>
 			<a href="#pageone" data-rel="close" data-role="button">Cerrar</a>
 		</div>
-		<!-- Indice -->
-		<div class="Indice ui-body">
-			<ul data-role="listview">
-				<li data-role="list-divider"><h1>Indice</h1></li>
-        <li><a href="contenido.html#Content-1" target="_self">Incluir Js en Web</a></li>
-				<li><a href="contenido.html#Content-2">Tipos de Datos</a></li>
-				<li><a href="contenido.html#Content-3">Operadores lògicos</a></li>
-				<li><a href="contenido.html#Content-4">Arrays</a></li>
-				<li><a href="contenido.html#Content-5">Funciones</a></li>
-        <li><a href="contenido.html#Content-6">Bucles etiquetados</a></li>
-        <li><a href="contenido.html#Content-7">Función eval JavaScript</a></li>
-        <li><a href="contenido.html#Content-8">DOM. Document Object Model</a></li>
-        <li><a href="contenido.html#Content-9">Funciones Js para cadenas de texto</a></li>
-        <li><a href="contenido.html#Content-10">Objetos Javascript</a></li>
-        <li><a href="contenido.html#Content-11">Prototype</a></li>
-        <li><a href="contenido.html#Content-12">Static JavaScript</a></li>
-        <li><a href="contenido.html#Content-13">Herencia y Prototype</a></li>
-        <li><a href="contenido.html#Content-14">Operación Condicional ternario</a></li>
-        <li><a href="contenido.html#Content-15">Funciones predefinidas para Arrays(arreglos)</a></li>
-        <li><a href="contenido.html#Content-16">Expresiones regulares JavaScript</a></li>
-        <li><a href="contenido.html#Content-17">Funciones para trabajar con números</a></li>
-        <li><a href="contenido.html#Content-18">Eventos JavaScript</a></li>
-        <li><a href="contenido.html#Content-19">Objeto Data JavaScript</a></li>
-        <li><a href="contenido.html#Content-20">Timers JavaScript</a></li>
-        <li><a href="contenido.html#Content-21">Math JavaScript</a></li>
-        </ul>
+		<!-- Contenido -->
+		<div class="content">
+			<div data-role="collapsible" data-inset:"false">
+				<h2>Incluir JS en Web</h2>
+				<div data-role="collapsible" data-collapsed-icon="arrow-r" and data-expanded-icon="arrow-d">
+					<h3>Delimitado por Etiquetas</h3>
+					<p><i>Este tipo de inclusión se puede dar de forma reiterativa a lo largo del documento</i></p>
+					<div class="interineado_corto ui-body-a" style=" line-height: 70%;">
+						<p>&lt;head&gt;</p>
+						<p style="text-indent: 10px;">&lt;script type="text/javascript"&gt;</p>
+						<p style="text-indent: 20px;">function nombreDeFuncion1() {</p>
+						<p style="text-indent: 30px;">… aquí el código de la función</p>
+						<p style="text-indent: 20px;">}</p>
+						<p style="text-indent: 20px;">function nombreDeFuncion2() {</p>
+						<p style="text-indent: 30px;">… aquí el código de la función</p>
+						<p style="text-indent: 20px;">}</p>
+					  <p style="text-indent: 10px;">&lt;/script&gt;</p>
+						<p>&lt;/head&gt;</p>
+					</div>
+				</div>
+				<div data-role="collapsible" data-collapsed-icon="arrow-r" and data-expanded-icon="arrow-d">
+					<h3>JavaScript externo en archivo JS</h3>
+					<p><i>Los archivos externos de Js se suelen dar por 2 factores:  Organización, y cuando el archivo es extenso</i></p>
+					<div class="interineado_corto ui-body-a" style=" line-height: 70%;">
+						<p>&lt;head&gt;</p>
+						<p style="text-indent: 10px;">&lt;script type="text/javascript"</p>
+						<p style="text-indent: 40px;">src="ruta_del_archivo.js"&gt;</p>
+						<p style="text-indent: 10px;">&lt;/script&gt;</p>
+						<p>&lt;/head&gt;</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
